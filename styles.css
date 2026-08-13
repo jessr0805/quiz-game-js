@@ -1,0 +1,25 @@
+.card {
+    background-color:lightgray;
+    padding: 20px;
+    border-radius: 10px;
+    width: 65%;
+}
+.button-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.button-grid button {
+    width: calc(50% - 5px);
+}
+.next-button {
+    width: 100%;
+    text-align: right;
+}
+.next-button button {
+    margin-top: 20px;
+    background-color: white;
+    border: 2px grey solid;
+    border-radius: 5px;
+    padding: 5px;
+}
